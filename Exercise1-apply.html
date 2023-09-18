@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <meta name="description" content="contact us page of My Flashcards website">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Mohammad Humoud">
+        <title>Apply</title>
+        <link rel = "stylesheet" href = "dark_theme.css"/>
+    </head>
+    <h1 style="font-size: 32; text-align: center;">
+        Join Our Team
+    </h1>
+    <body>
+        <nav>
+            <a href = "Exercise1-homepage.html">homepage</a>&emsp;&emsp;
+            <a href = "Exercise1-about-us.html">about us</a>&emsp;&emsp;
+            <a href = "Exercise1-contact-us.html">contact us</a>&emsp;&emsp;
+            <a href = "Exercise1-apply.html">Join our Team</a>
+        </nav>
+        <p style="font-size: 24;">
+            Good News Everyone! We are looking for young ambitious talents to join our team and help us realize our vision for My Flashcards.
+        </p>
+        <br><br><br>
+        <P style="font-size: 20; text-align: center;">
+            Team members are expected to collaborate, contribute, and most importantly have fun!<br>
+            If this sounds like it is right up your alley, then submit the application form below.
+        </P>
+
+
+    </body>
+    <h2 style="font-size: 24;">
+        Application Form:
+    </h2>
+    <body>
+        <form action = "" method = "" autocomplete="on">
+            <label for = "FN">First Name: </label> <input type ="text" ID = "FN" required> &emsp;
+            <label for = "LN">Last Name: </label> <input type = "text" ID = "LN" required> &emsp;
+
+            <label for = "Gender">Gender: </label>
+            <input list = "Gender" name = "gender" id = "gender">
+            <datalist id = "Gender">
+                <option value = "male">
+                <option value = "female">
+            </datalist>
+
+            <br><br><label for = "NID">National/Iqama ID: </label> <input type = "text" pattern = "[0-9]{10}" ID = "NID">
+            <br><br><label for = "DOB">Date Of Birth: </label> <input type = "date" ID = "DOB">
+            <br><br><label for="Country-Code">Country Code: </label>
+            <input list = "Country-Code" name = "country-code" id = "country-code">
+            <datalist id = "Country-Code">
+                <option value = "Saudi Arabia +966">
+                <option value = "UAE +971">
+                <option value = "Qatar +974">
+                <option value = "Bahrain +973">
+                <option value = "Oman +968">
+            </datalist>&emsp;
+            <label for="Phone">Phone Number: </label>
+            <input type = "tel" pattern = "[0-9]{9}" placeholder="5X XXX XXXX" ID = "Phone">
+            <br><label for = "E-mail">Email address: </label>
+            <input type = "email" name = "email" placeholder="example@yourdomain.com" id = "E-mail">
+
+            <br><br><label for = "ExpYears">How many years of experience do you have working on software projects</label>
+            <input type = "number" name = "exp-years" placeholder="2" ID = "ExpYears">
+
+            <br><br><br><label for = "description">Briefly describe the role you played in some of the past projects you took part in:</label>
+            <br><textarea rows="10" cols="50" placeholder="type here" id="description"></textarea>
+
+            <br><br> <input type = "button" onclick = "window.location.href = 'Exercise1-confirmation.html';" name = "Submit" value = "Submit">
+        </form>
+    </body>
+
+    <footer>
+        <br><br><br><br>
+        <nav>
+            <a href = "Exercise1-homepage.html">homepage</a>&emsp;&emsp;
+            <a href = "Exercise1-about-us.html">about us</a>&emsp;&emsp;
+            <a href = "Exercise1-contact-us.html">contact us</a>&emsp;&emsp;
+            <a href = "Exercise1-apply.html">Join our Team</a>
+        </nav>
+        Mohammad Humoud Tel: <a href = "tel:+966567744525">+966567744525</a> Email: <a href = "mailto:S202131910@kfupm.edu.sa">S202131910@kfupm.edu.sa</a>
+        &emsp;&emsp;© 2023 My Flashcards. All copyrights reserved.
+    </footer>
+</html>
